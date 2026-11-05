@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fffbf3">
+  <meta name="description" content="GloryXD is a mobile game studio exploring the bright side of play. Discover our puzzle, match-3, and tile matching game concepts.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="GloryXD — Little games. Big happy moments.">
+  <meta property="og:description" content="A little challenge. A lot of joy. Meet GloryXD mobile game studio.">
+  <title>GloryXD — Little games. Big happy moments.</title>
+  <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg">
+  <link rel="preload" href="./assets/fonts/dm-sans-variable.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="preload" href="./assets/images/match3-demo.webp" as="image" fetchpriority="high">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./site.config.js" defer></script>
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="header-inner wrap">
+      <a class="brand" href="#home" aria-label="GloryXD home">
+        <svg class="brand-symbol" viewBox="0 0 44 44" fill="none" aria-hidden="true"><rect x="2" y="2" width="18" height="18" rx="6" fill="#8050db"/><rect x="24" y="2" width="18" height="18" rx="6" fill="#ffac61"/><rect x="2" y="24" width="18" height="18" rx="6" fill="#8ed5ba"/><rect x="24" y="24" width="18" height="18" rx="6" fill="#f6cc58"/></svg>
+        <span class="brand-word">Glory<span>XD</span><small>MOBILE GAME STUDIO</small></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-label="Open navigation" aria-controls="main-nav" aria-expanded="false"><span></span><span></span></button>
+      <nav class="main-nav" id="main-nav" aria-label="Main navigation">
+        <a href="#games">Our games</a><a href="#studio">About us</a><a href="#approach">How we play</a>
+        <a class="nav-contact" href="#contact">Say hello <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero-grid wrap">
+        <div class="hero-copy">
+          <p class="eyebrow hero-kicker"><span class="status-dot"></span> BIG IDEAS. POCKET-SIZED FUN.</p>
+          <h1 id="hero-title">Little games.<br>Big <span class="happy-word">happy<svg viewBox="0 0 260 20" fill="none" aria-hidden="true"><path d="M5 13C65 2 170 2 254 11M47 18c51-7 116-9 161-5" stroke="currentColor" stroke-width="5" stroke-linecap="round"/></svg></span><br>moments.</h1>
+          <p class="hero-description">A clever puzzle. A colorful match. A well-earned little win. We’re GloryXD, and we’re here to put more play in your day.</p>
+          <div class="hero-actions"><a class="button button-primary" href="#games">Find your kind of fun <span aria-hidden="true">↗</span></a><a class="hero-about" href="#studio">Meet the studio <span aria-hidden="true">→</span></a></div>
+        </div>
+        <div class="hero-playground">
+          <span class="hero-orbit orbit-one" aria-hidden="true"></span><span class="hero-orbit orbit-two" aria-hidden="true"></span>
+          <svg class="play-star star-one" viewBox="0 0 60 60" fill="none" aria-hidden="true"><path d="m30 1 7 20 22 9-22 8-7 21-8-21L1 30l21-9L30 1Z" fill="currentColor"/></svg>
+          <svg class="play-star star-two" viewBox="0 0 60 60" fill="none" aria-hidden="true"><path d="m30 1 7 20 22 9-22 8-7 21-8-21L1 30l21-9L30 1Z" fill="currentColor"/></svg>
+          <figure class="phone phone-tiles"><span class="phone-camera" aria-hidden="true"></span><img src="./assets/images/tiles-demo.webp" alt="Tile matching demo with fruit tiles in a mint green garden" width="1051" height="1497"><figcaption>Tile Picnic <span>Tile Match</span></figcaption></figure>
+          <figure class="phone phone-puzzle"><span class="phone-camera" aria-hidden="true"></span><img src="./assets/images/puzzle-demo.webp" alt="Block puzzle demo with colorful shapes on a lavender board" width="1086" height="1448"><figcaption>Pocket Blocks <span>Puzzle</span></figcaption></figure>
+          <figure class="phone phone-match"><span class="phone-camera" aria-hidden="true"></span><img src="./assets/images/match3-demo.webp" alt="Match-3 demo with glossy fruit pieces in a candy pink garden" width="1086" height="1448" fetchpriority="high"><figcaption>Sweet Match <span>Match-3</span></figcaption></figure>
+          <span class="smile-sticker" aria-hidden="true"><svg viewBox="0 0 38 25" fill="none"><circle cx="11" cy="5" r="2" fill="currentColor"/><circle cx="27" cy="5" r="2" fill="currentColor"/><path d="M5 12c5 13 23 13 28 0" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>One more<br>little smile.</span>
+          <span class="art-caption">A LITTLE PREVIEW OF OUR IMAGINATION · DEMO ART</span>
+        </div>
+      </div>
+      <div class="hero-bottom wrap"><p>Good things come in small screens.</p><div class="genre-pills"><span><i class="genre-shape shape-block" aria-hidden="true"></i>Puzzle</span><span><i class="genre-shape shape-gem" aria-hidden="true"></i>Match-3</span><span><i class="genre-shape shape-tile" aria-hidden="true"></i>Tile Match</span></div></div>
+    </section>
+
+    <section class="games section-space" id="games" aria-labelledby="games-title">
+      <div class="wrap">
+        <div class="section-heading"><div><p class="eyebrow">SMALL SCREENS. ENDLESS POSSIBILITIES.</p><h2 id="games-title">A little challenge.<br>A lot of <span>joy.</span></h2></div><div class="section-intro"><p>Bright ideas for your next happy break.<br>Explore our take on casual mobile play.</p><span class="demo-note"><span class="status-dot"></span> GAME CONCEPTS &amp; DEMO ARTWORK</span></div></div>
+        <div class="game-grid">
+          <button class="game-card card-match" type="button" data-project="match3" aria-haspopup="dialog" aria-label="Explore Sweet Match, a match-3 demo concept">
+            <span class="game-art"><span class="art-circle" aria-hidden="true"></span><img src="./assets/images/match3-demo.webp" alt="A bright match-3 board filled with glossy fruit pieces" width="1086" height="1448" loading="lazy"><span class="demo-badge">Demo concept</span><span class="cover-spark" aria-hidden="true">✦</span></span>
+            <span class="game-info"><span class="game-category">MATCH-3</span><span class="game-title">Sweet Match</span><span class="game-description">A colorful combo. A sweet little victory.</span><span class="game-link">Explore concept <span aria-hidden="true">↗</span></span></span>
+          </button>
+          <button class="game-card card-tiles" type="button" data-project="tiles" aria-haspopup="dialog" aria-label="Explore Tile Picnic, a tile matching demo concept">
+            <span class="game-art"><span class="art-circle" aria-hidden="true"></span><img src="./assets/images/tiles-demo.webp" alt="Layered ivory fruit tiles with a matching tray below" width="1051" height="1497" loading="lazy"><span class="demo-badge">Demo concept</span><span class="cover-spark" aria-hidden="true">✦</span></span>
+            <span class="game-info"><span class="game-category">TILE MATCH</span><span class="game-title">Tile Picnic</span><span class="game-description">Find your match. Settle into your happy place.</span><span class="game-link">Explore concept <span aria-hidden="true">↗</span></span></span>
+          </button>
+          <button class="game-card card-puzzle" type="button" data-project="puzzle" aria-haspopup="dialog" aria-label="Explore Pocket Blocks, a block puzzle demo concept">
+            <span class="game-art"><span class="art-circle" aria-hidden="true"></span><img src="./assets/images/puzzle-demo.webp" alt="Colorful block shapes arranged on a purple puzzle grid" width="1086" height="1448" loading="lazy"><span class="demo-badge">Demo concept</span><span class="cover-spark" aria-hidden="true">✦</span></span>
+            <span class="game-info"><span class="game-category">BLOCK PUZZLE</span><span class="game-title">Pocket Blocks</span><span class="game-description">Little shapes. Satisfyingly clever possibilities.</span><span class="game-link">Explore concept <span aria-hidden="true">↗</span></span></span>
+          </button>
+        </div>
+        <p class="games-footnote">A glimpse of what could be. These demo concepts illustrate our creative direction.</p>
+      </div>
+    </section>
+
+    <section class="studio section-space" id="studio" aria-labelledby="studio-title">
+      <div class="studio-grid wrap">
+        <div class="studio-visual" aria-hidden="true"><span class="visual-small-star">✦</span><div class="letter-tiles"><span>P</span><span>L</span><span>A</span><span>Y</span></div><span class="visual-caption">IT’S A GOOD DAY TO PLAY.</span><span class="visual-big-star">✳</span></div>
+        <div class="studio-copy"><p class="eyebrow">HELLO, WE’RE GLORYXD.</p><h2 id="studio-title">We make room<br>for a little <span>play.</span></h2><p>Waiting for your coffee. Taking a breather. Finding a moment just for you. We believe there’s a place for a little joy in every day.</p><p>GloryXD is a mobile game studio with a soft spot for clever puzzles, colorful matches, and satisfying little discoveries. Our starting point is simple: easy to pick up, lovely to look at, and fun to figure out.</p><a class="text-link" href="#approach">Get to know our approach <span aria-hidden="true">↗</span></a></div>
+      </div>
+    </section>
+
+    <section class="approach section-space wrap" id="approach" aria-labelledby="approach-title">
+      <div class="section-heading"><div><p class="eyebrow">A LITTLE OF WHAT MAKES US, US.</p><h2 id="approach-title">Made with care.<br>Made for <span>play.</span></h2></div><p class="section-intro approach-intro">Behind every little moment of fun,<br>there’s a whole lot of thought.</p></div>
+      <div class="principles">
+        <article class="principle"><span class="principle-icon icon-purple" aria-hidden="true"><svg viewBox="0 0 48 48" fill="none"><rect x="7" y="7" width="14" height="14" rx="4"/><rect x="27" y="7" width="14" height="14" rx="4"/><rect x="7" y="27" width="14" height="14" rx="4"/><path d="M27 34h14m-7-7v14"/></svg></span><h3>Simple. In the best way.</h3><p>A clear idea and an inviting first tap. We love puzzles that make you feel at home before they make you think.</p></article>
+        <article class="principle"><span class="principle-icon icon-coral" aria-hidden="true"><svg viewBox="0 0 48 48" fill="none"><path d="m24 7 5 11 12 6-12 6-5 11-6-11-11-6 11-6 6-11Z"/><path d="M36 5v8m-4-4h8M8 35v8m-4-4h8"/></svg></span><h3>Feel-good by design.</h3><p>A friendly color. A satisfying match. A tiny celebration. The details should make the whole experience feel good.</p></article>
+        <article class="principle"><span class="principle-icon icon-mint" aria-hidden="true"><svg viewBox="0 0 48 48" fill="none"><path d="M24 39S6 29 6 17a10 10 0 0 1 18-6 10 10 0 0 1 18 6c0 12-18 22-18 22Z"/></svg></span><h3>A little spark of joy.</h3><p>We care about the person on the other side of the screen. Our goal is to make their everyday break a little brighter.</p></article>
+      </div>
+    </section>
+
+    <section class="contact wrap" id="contact" aria-labelledby="contact-title">
+      <div class="contact-main"><div class="contact-copy"><p class="eyebrow">GOOD THINGS START WITH A MATCH.</p><h2 id="contact-title">Let’s make<br>something <span>click.</span></h2><p>A player with an idea? A publisher who shares our vision?<br>We’d love to start a conversation.</p><a class="button button-yellow" href="mailto:gloryxdinc@gmail.com?subject=Let%E2%80%99s%20talk%20%E2%80%94%20GloryXD" data-inquiry-link>Say hello <span aria-hidden="true">↗</span></a><a class="contact-email" href="mailto:gloryxdinc@gmail.com" data-email-link data-email-text>gloryxdinc@gmail.com</a></div><div class="contact-tiles" aria-hidden="true"><span>✦</span><span>♡</span><span>↗</span></div></div>
+      <div class="contact-bottom"><p><span>FOR PLAYERS</span> A question, a bright idea, or just a hello.</p><p><span>FOR PARTNERS &amp; PUBLISHERS</span> Let’s explore what we could create together.</p></div>
+    </section>
+  </main>
+
+  <footer class="footer wrap"><div class="footer-top"><a class="footer-brand" href="#home" aria-label="GloryXD, back to top">Glory<span>XD</span><span class="footer-dot" aria-hidden="true">✦</span></a><p>Little games. Big happy moments.</p><a class="back-top" href="#home">Back to top <span aria-hidden="true">↑</span></a></div><div class="footer-bottom"><p>© <span id="year">2026</span> GloryXD. All rights reserved.</p><span>IMAGINED WITH CARE. MADE FOR PLAY.</span></div></footer>
+
+  <dialog class="project-dialog" id="project-dialog" aria-labelledby="dialog-title" aria-describedby="dialog-description">
+    <button class="dialog-close" type="button" aria-label="Close project details" autofocus>×</button>
+    <div class="dialog-art"><img id="dialog-image" src="./assets/images/match3-demo.webp" alt="" width="1086" height="1448"></div>
+    <div class="dialog-content"><p class="eyebrow" id="dialog-category"></p><h2 id="dialog-title"></h2><p id="dialog-description"></p><ul class="dialog-tags" id="dialog-tags" aria-label="Concept themes"></ul><div class="dialog-foot"><p>Demo concept &amp; illustrative artwork.<br>A look at our creative direction.</p><a class="text-link" href="mailto:gloryxdinc@gmail.com?subject=Project%20inquiry%20%E2%80%94%20GloryXD" id="dialog-inquiry">Talk to the studio <span aria-hidden="true">↗</span></a></div></div>
+  </dialog>
+</body>
+</html>

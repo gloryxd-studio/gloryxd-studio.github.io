@@ -1,0 +1,15 @@
+# GloryXD image assets
+
+Generated with the built-in ImageGen tool on 2026-11-05. Each asset was generated separately. The final project copies are WebP conversions of the generated PNGs; composition and dimensions are preserved.
+
+## `assets/images/solstice.webp`
+
+Use case: stylized-concept. Asset type: cinematic widescreen hero key art for GloryXD game studio website. Create an original premium science-fiction game environment painting, wide 16:9 composition. A tiny lone explorer in a burnt orange cape on dark basalt rocks in the LOWER RIGHT foreground, facing a monumental broken circular spacecraft half-buried in a desert canyon on the RIGHT, with an enormous eclipsed ochre sun on the upper right and drifting pale dust. Landscape on an alien world, layered monumental architecture and atmospheric depth. The LEFT HALF should be dark nearly black charcoal negative space with just subtle distant mountains and haze, suitable for a large white website headline overlay later. Rich dark olive-black shadows, warm muted amber and pale cream sunlight, restrained colors, filmic grain, realistic painterly AAA concept art with beautiful silhouette and dramatic scale. Strong art direction, evocative and mysterious. No letters, no text, no logos, no UI, no watermarks. Landscape image.
+
+## `assets/images/moss-and-mystery.webp`
+
+Use case: stylized-concept. Asset type: original adventure game concept cover art for GloryXD studio portfolio. Wide landscape 16:9 artwork. A tiny traveler in a mustard-yellow rain cape with a round backpack and a lantern on a mossy stone path facing an enormous ancient tree whose roots form a softly glowing circular doorway. Enchanted verdant forest, gigantic sculptural ferns and mushrooms, turquoise pools, warm golden bioluminescent specks, white mist, miniature ancient ruins integrated into roots. Premium stylized 3D adventure game art, tactile clay-like materials with lush detailed plants, beautiful hand-painted mood, cinematic soft light, inviting sense of wonder. Traveler lower middle left, doorway center right. Rich forest greens, luminous teal, little yellow highlights. Original characters. No text, no letters, no typography, no logos, no UI, no watermark.
+
+## `assets/images/afterlight.webp`
+
+Use case: stylized-concept. Asset type: original racing game environment key art for GloryXD studio portfolio. Wide landscape 16:9 image. Dynamic low three-quarter rear view of an original angular orange retro-futuristic sports car speeding into a rain-slick mountain tunnel opening in a futuristic city at night. Spectacular graphic sense of speed, cyan reflections on wet asphalt, sharp ivory headlights, amber tail-light trail, a massive suspended bridge and tall sculptural towers in atmospheric background, subtle neon lighting. Premium stylized game cinematic, crisp geometry and painterly atmosphere, restrained petrol blue and charcoal palette with warm orange accents, dramatic composition. No brand marks on car. No text, no letters, no readable signs, no logos, no watermark, no UI.
